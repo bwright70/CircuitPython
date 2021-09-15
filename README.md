@@ -27,3 +27,4 @@ while True:
 
 ### Images:
 
+![Rainbow](Images/ezgif-3-125a11c069bc.gif)
