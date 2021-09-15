@@ -27,4 +27,4 @@ while True:
 
 ### Images:
 
-![Rainbow](Images/ezgif-3-125a11c069bc.gif)
+<img src="Images/ezgif-3-125a11c069bc.gif" width="400" height="400" />
