@@ -24,7 +24,7 @@ We were given the basic code and a website that allowed us to determine the RGB 
 
 ### Description
 
-This is the second 
+This is the second ass
 
 ### Process
 
