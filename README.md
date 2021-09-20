@@ -43,4 +43,6 @@ This is the section of the code that senses capacitive touch
 
 ### Image 
 
+<img src="Images/ezgif-3-e8f5a2736d0e.gif" width="400" Height="400">
+
 -------
