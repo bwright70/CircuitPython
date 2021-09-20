@@ -24,9 +24,11 @@ We were given the basic code and a website that allowed us to determine the RGB 
 
 ### Description
 
-This is the second ass
+This is the second assignment using circuit python. We just needed to make a servo turned back and forth but I chose to do the extra spicy option which involved using capacitive touch to turn the servo. 
 
 ### Process
+
+The first thing to do was make the servo turn. It was fairly simple, all I did was download the code that tells the servo to run and then use "angle =" to tell the servo what direction to turn to. Next came the more complicated part. Capacitive touch is how touch screens work. Basically it sends a small charge down a wire and measures the discharge. Because you are 80% water and a much better conducter than air, when you touch the end of the wire the charge discharges a lot faster, the code measures this and then tells the servo to spin whenever is happens 
 
 ### Code
 
