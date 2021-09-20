@@ -32,7 +32,14 @@ The first thing to do was make the servo turn. It was fairly simple, all I did w
 
 ### [Code](Code/Capacitive.py) 
 
-'''
+```
+touch_A1 = touchio.TouchIn(board.A1)
+
+while True:
+    if touch_A1.value:
+        print("Touched!")
+```
+This is the section of the code that senses capacitive touch 
 
 ### Image 
 
