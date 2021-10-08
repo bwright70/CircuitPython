@@ -46,3 +46,63 @@ This is the section of the code that senses capacitive touch
 <img src="Images/ezgif-3-e8f5a2736d0e.gif" width="400" Height="400">
 
 -------
+
+## Rainbow Distance Servo 
+
+### Description
+
+In this assignment we were tasked with getting an led to change color based on the distance of a distance sensor. Not only that but the RGB vaules had to be calculated based on the distance and so has you moved your hand closer or futher away it went through the colors of the rainbow 
+
+### Process
+
+The first thing I did was just get a servo to change a led's color, so that when the ditance was less than 5 it would be red and greater than 5 blue. After I got that working I used some premade code to allow the led to change vaules based off the distance values  
+
+### [Code](Code/RainbowDistance.py)
+
+Heres the part of the code that did the calculations
+
+```
+distance = sonar.distance
+        print((distance))
+        if distance <= 5:
+            dot.fill((255, 0, 0))
+        if distance > 5 and distance < 20:
+            BLUE = int(simpleio.map_range(distance, 5, 20, 0, 255))
+            RED = int(simpleio.map_range(distance, 5, 20, 255, 0))
+            GREEN = 0
+            dot.fill((RED, GREEN, BLUE))
+            print(RED, GREEN, BLUE)
+```
+
+### Image 
+-------
+
+## Photo Interruptor 
+
+### Description 
+### Process
+### Code
+### Image 
+-------
+
+## LCD
+
+### Description 
+### Process
+### Code
+### Image 
+-------
+
+## Swing Arm 
+
+### Description 
+### Process
+### Code
+### Image 
+-------
+
+### Description 
+### Process
+### Code
+### Image 
+-------
