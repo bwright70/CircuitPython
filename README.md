@@ -75,6 +75,8 @@ distance = sonar.distance
 ```
 
 ### Image 
+
+<img src="Images/ezgif-4-805969dfd2c8.gif" width="400" height="400" />
 -------
 
 ## Photo Interruptor 
