@@ -94,17 +94,3 @@ distance = sonar.distance
 ### Code
 ### Image 
 -------
-
-## Swing Arm 
-
-### Description 
-### Process
-### Code
-### Image 
--------
-
-### Description 
-### Process
-### Code
-### Image 
--------
