@@ -10,13 +10,19 @@ This is the first assignment for engineering 3. We were tasked with turning the 
 
 ### Process
 
-We were given the basic code and a website that allowed us to determine the RGB vaules of colors (https://www.w3schools.com/colors/colors_picker.asp). Changing the color to red was as simple as changing two numbers in the code from (0, 0, 255) to (255, 0, 0). After that I used time.sleep(#) to tell the metro when to pause and then just copied and pasted a bunch of color vaules so that the end result was my led flashing a rainbow pattern 
+We were given the basic code and [a website that allowed us to determine the RGB vaules of colors](https://www.w3schools.com/colors/colors_picker.asp). Changing the color to red was as simple as changing two numbers in the code from (0, 0, 255) to (255, 0, 0). After that I used time.sleep(#) to tell the metro when to pause and then just copied and pasted a bunch of color vaules so that the end result was my led flashing a rainbow pattern 
 
 ### [Code](Code/Red.py)
 
 ### Image
 
 <img src="Images/ezgif-3-125a11c069bc.gif" width="400" height="400" />
+
+## Useful Tips 
+
+* The RGB vaules need to be whole integers 
+* https://www.w3schools.com/colors/colors_picker.asp
+* You can reduce the brightness of your led using dot.brightness = a value less than one 
 
 ---------
 
@@ -44,6 +50,12 @@ This is the section of the code that senses capacitive touch
 ### Image 
 
 <img src="Images/ezgif-3-e8f5a2736d0e.gif" width="400" Height="400">
+
+## Useful Tips
+
+* Changing the third value in the "for angle in range" statement makes it spin faster or slower 
+* Frequency also changes the speed because its changing the intervals that the servo moves at. 
+* The other two numbers in the "for angle in range" statement are defining the direction the servo turns. Its moving from 0 to 180 or from 180 to 0 
 
 -------
 
@@ -77,6 +89,14 @@ distance = sonar.distance
 ### Image 
 
 <img src="Images/ezgif-4-805969dfd2c8.gif" width="400" height="400" />
+
+## Useful Tips 
+
+* Its very important to have your serial moniter open so you know exactly what vaules the distance sensor is producing
+* Once again the RGB vaules need to be whole integers so that it does break
+* In the "Color = int(simpleio.map_range(distance, 5, 20, 0, 255))" statement the two numbers define the distance at which its occuring and the second two nnumbers tell the color which direction its moving 
+* So has one color increases the other decreases and the final unused color is zero 
+
 -------
 
 ## Photo Interruptor 
